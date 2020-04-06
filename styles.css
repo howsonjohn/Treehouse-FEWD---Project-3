@@ -1,0 +1,212 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video, input, textarea {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* End Reset */
+
+body {
+    font-family: 'Merriweather', serif;
+}
+
+.mainContent {
+    max-width: 90%;
+    margin: 0 auto 50px;
+}
+header {
+    background-color: #294d5f;
+}
+.siteName {
+    text-transform: uppercase;
+    color: white;
+    text-shadow: 1px 1px 0px #000;
+    text-align: center;
+    padding: 30px;
+    font-size: 20px;
+}
+p {
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+h1 {
+    font-size: 24px;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+}
+.faded {
+    color: #aaa;
+    text-align: center;
+    margin-top: 1em;
+}
+.intro {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    border-bottom: 3px solid black;
+    text-align: center;
+    margin-bottom: 3px;
+}
+.contact1 {
+    padding-top: 30px;
+    border-top: 1px solid black;
+}
+.contact2 {
+    padding-top: 30px;
+    border-top: 2px solid black;
+}
+h3,
+legend {
+    font-size: 20px;
+    margin-bottom: 1em;
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+}
+input,
+select,
+textarea {
+    border: none;
+    width: 100%;
+    display: block;
+    background-color: #eee;
+    padding: 1em;
+    border-radius: 6px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+input:focus,
+select:focus,
+textarea:focus {
+    outline: 1px solid black;
+}
+select {
+    font-size: 16px;
+	padding: 1em;
+	box-sizing: border-box;
+	box-shadow: 0 1px 0 1px rgba(0,0,0,.04);
+	border-radius: .5em;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	appearance: none;
+	background-color: #eee;
+	background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23007CB2%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E');
+	background-repeat: no-repeat, repeat;
+	background-position: right .7em top 50%, 0 0;
+    background-size: .65em auto, 100%;
+    /* Cross-browser compatible select found here: https://www.filamentgroup.com/lab/select-css.html */
+}
+input[type="checkbox"],
+input[type="radio"] {
+    margin-right: 10px;
+    margin-bottom: 10px;
+    display: inline;
+    width: auto;
+}
+input#zip {
+    max-width: 200px;
+}
+::-webkit-input-placeholder {
+    text-align: right;
+    font-style: italic;
+    color: #aaa;
+    font-size: 12px;
+  }
+  ::-moz-placeholder {
+    text-align: right;
+    font-style: italic;
+    color: #aaa;
+    font-size: 12px;
+  }
+  :-ms-input-placeholder {
+    text-align: right;
+    font-style: italic;
+    color: #aaa;
+    font-size: 12px;
+  }
+  :-moz-placeholder {
+    text-align: right;
+    font-style: italic;
+    color: #aaa;
+    font-size: 12px;
+  }
+button {
+    background-color: #2392a6;
+    text-align: center;
+    padding: 1em;
+    font-size: 16px;
+    color: white;
+    display: block;
+    width: 100%;
+    border-radius: 6px;
+}
+.copyright {
+    text-align: center;
+    font-size: 14px;
+    font-style: italic;
+    color: #aaa;
+}
+
+/* Media Queries */
+
+@media (min-width: 768px) {
+    label.textInput {
+        float: left;
+        display: inline-block;
+        width: 18%;
+        padding-top: 25px;
+    }
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"],
+    select {
+        width: 82%;
+    }
+    .intro {
+        padding-top: 60px;
+        padding-bottom: 40px;
+    }
+}
