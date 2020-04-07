@@ -55,8 +55,9 @@ body {
 }
 
 .mainContent {
-    max-width: 90%;
+    max-width: 1000px;
     margin: 0 auto 50px;
+    padding: 0 30px;
 }
 header {
     background-color: #294d5f;
@@ -188,6 +189,10 @@ button {
     font-size: 14px;
     font-style: italic;
     color: #aaa;
+}
+#commentsLabel {
+    margin-top: 1em;
+    display: inline-block;
 }
 
 /* Media Queries */
